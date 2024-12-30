@@ -1,0 +1,211 @@
+tier,name,jurisdiction,parentName
+0,Lehman Brothers Holdings Inc.,Delaware,
+1,Appalachian Asset Management Corp.,Delaware,Lehman Brothers Holdings Inc.
+2,Lehman Risk Services (Bermuda) Ltd.,Bermuda,Appalachian Asset Management Corp.
+1,ARS Holdings I LLC,Delaware,Lehman Brothers Holdings Inc.
+1,Banque Lehman Brothers S.A.,France,Lehman Brothers Holdings Inc.
+1,LB 745 LLC,Delaware,Lehman Brothers Holdings Inc.
+1,LB 745 Leaseco I LLC,Delaware,Lehman Brothers Holdings Inc.
+1,LBAC Holdings I Inc.,Delaware,Lehman Brothers Holdings Inc.
+2,Lehman Brothers Asia Capital Company,Hong Kong,LBAC Holdings I Inc.
+1,LBCCA Holdings I LLC,Delaware,Lehman Brothers Holdings Inc.
+2,Falcon Holdings I LLC,Delaware,LBCCA Holdings I LLC
+3,Falcon Holdings II Inc.,Delaware,Falcon Holdings I LLC
+4,CIMT Limited,Cayman Islands,Falcon Holdings II Inc.
+5,TMIC Limited,Cayman Islands,CIMT Limited
+6,MICT Limited,Cayman Islands,TMIC Limited
+7,Falcon Investor I-X Inc.,Cayman Islands,MICT Limited
+8,Global Thai Property Fund,Thailand,Falcon Investor I-X Inc.
+2,Lehman Brothers Asia Capital Company,Hong Kong,Global Thai Property Fund
+2,Lehman Brothers Commercial Corporation Asia Limited,Hong Kong,LBCCA Holdings I LLC
+2,Revival Holdings Limited,Cayman Islands,LBCCA Holdings I LLC
+3,Global Korea Investments Ltd.,Cayman Islands,Revival Holdings Limited
+4,SOGKI Development Inc.,Cayman Islands,Global Korea Investments Ltd.
+5,GKI Korea Development Limited,Malaysia,SOGKI Development Inc.
+6,Maewha K-STARS Ltd.,Republic of Korea,GKI Korea Development Limited
+3,Sunrise Finance Co., Ltd.,Japan,Revival Holdings Limited
+1,LBCCA Holdings II LLC,Delaware,Lehman Brothers Holdings Inc.
+2,Falcon Holdings I LLC,Delaware,LBCCA Holdings II LLC
+3,Falcon Holdings II Inc.,Delaware,Falcon Holdings I LLC
+4,CIMT Limited,Cayman Islands,Falcon Holdings II Inc.
+5,TMIC Limited,Cayman Islands,CIMT Limited
+6,MICT Limited,Cayman Islands,TMIC Limited
+7,Falcon Investor I-X Inc.,Cayman Islands,MICT Limited
+8,Global Thai Property Fund,Thailand,Falcon Investor I-X Inc.
+2,Lehman Brothers Commercial Corporation Asia Limited,Hong Kong,LBCCA Holdings II LLC
+2,Revival Holdings Limited,Cayman Islands,LBCCA Holdings II LLC
+3,Global Korea Investments Ltd.,Cayman Islands,Revival Holdings Limited
+4,SOGKI Development Inc.,Cayman Islands,Global Korea Investments Ltd.
+5,GKI Korea Development Limited,Malaysia,SOGKI Development Inc.
+6,Maewha K-STARS Ltd.,Republic of Korea,GKI Korea Development Limited
+3,Sunrise Finance Co., Ltd.,Japan,Revival Holdings Limited
+1,LB Delta Funding,Cayman Islands,Lehman Brothers Holdings Inc.
+2,LB Delta (Cayman) No 1 Ltd.,Cayman Islands,LB Delta Funding
+1,LBHK Funding (Cayman) No. 4 Ltd.,Cayman Islands,Lehman Brothers Holdings Inc.
+2,LBHK Funding (Cayman) No. 1 Ltd.,Cayman Islands,LBHK Funding (Cayman) No. 4 Ltd.
+1,LB Russia Holdings LLC,Delaware,Lehman Brothers Holdings Inc.
+2,LB Russia Holdings Inc.,Delaware,LB Russia Holdings LLC
+3,OOO Lehman Brothers,Russia,LB Russia Holdings Inc.
+1,Lehman ALI Inc.,Delaware,Lehman Brothers Holdings Inc.
+2,314 Commonwealth Ave. Inc.,Delaware,Lehman ALI Inc.
+3,Alnwick Investments (UK) Ltd.,United Kingdom,314 Commonwealth Ave. Inc.
+3,Bamburgh Investments (UK) Ltd.,United Kingdom,314 Commonwealth Ave. Inc.
+4,Gainsborough Investments BV,The Netherlands,Bamburgh Investments (UK) Ltd.
+5,Kenilworth Investments 1 Ltd.,Cayman Islands,Gainsborough Investments BV
+3,Kenilworth Investments 2 Ltd.,Cayman Islands,314 Commonwealth Ave. Inc.
+3,Brasstown LLC,Delaware,314 Commonwealth Ave. Inc.
+4,Brasstown Mansfield I SCA,Luxembourg,Brasstown LLC
+2,Lehman Capital Investments 2 Ltd.,Cayman Islands,Lehman ALI Inc.
+2,Property Asset Management Inc.,Delaware,Lehman ALI Inc.
+3,L.B.C. YK,Japan,Property Asset Management Inc.
+3,LB Capital Investments 2 Ltd.,Cayman Islands,Property Asset Management Inc.
+3,LBS Holdings SARL,Luxembourg,Property Asset Management Inc.
+3,Lehman Brothers Global Investments LLC,Delaware,Property Asset Management Inc.
+4,New Century Finance Co., LTD.,Japan,Lehman Brothers Global Investments LLC
+5,Lehman Brothers Commercial Mortgage K.K.,Japan,New Century Finance Co., LTD.
+3,Lehman Brothers Hy Opportunities Korea Inc.,Republic of Korea,Property Asset Management Inc.
+3,Lehman Brothers P.A. LLC,Delaware,Property Asset Management Inc.
+1,Lehman Brothers AIM Holding LLC,Delaware,Lehman Brothers Holdings Inc.
+2,Lehman Brothers Alternative Investment Management LLC,Delaware,Lehman Brothers AIM Holding LLC
+1,Lehman Brothers Asset Management Inc.,Delaware,Lehman Brothers Holdings Inc.
+1,Lehman Brothers Asset Management, LLC,Delaware,Lehman Brothers Holdings Inc.
+1,Lehman Brothers Asia Pacific (Singapore) PTE. Ltd.,Singapore,Lehman Brothers Holdings Inc.
+2,Lehman Brothers Asia Holdings Limited,Hong Kong,Lehman Brothers Asia Pacific (Singapore) PTE. Ltd.
+3,Lehman Brothers Equity Finance (Cayman) Limited,Cayman Islands,Lehman Brothers Asia Holdings Limited
+3,Lehman Brothers Securities N.V.,The Netherlands,Lehman Brothers Asia Holdings Limited
+2,Lehman Brothers Pacific Holdings Pte. Ltd.,Singapore,Lehman Brothers Asia Pacific (Singapore) PTE. Ltd.
+3,Lehman Brothers Asia Limited,Hong Kong,Lehman Brothers Pacific Holdings Pte. Ltd.
+3,Lehman Brothers Futures Asia Limited,Hong Kong,Lehman Brothers Pacific Holdings Pte. Ltd.
+3,Lehman Brothers Securities Asia Limited,Hong Kong,Lehman Brothers Pacific Holdings Pte. Ltd.
+3,Lehman Brothers Investments PTE Ltd.,Singapore,Lehman Brothers Pacific Holdings Pte. Ltd.
+4,Lehman Brothers Holdings Japan Inc.,Japan,Lehman Brothers Investments PTE Ltd.
+5,Lehman Brothers Japan Inc.,Japan,Lehman Brothers Holdings Japan Inc.
+4,Lehman Brothers Capital Private Limited,India,Lehman Brothers Investments PTE Ltd.
+4,Lehman Brothers Securities Private Limited,India,Lehman Brothers Investments PTE Ltd.
+3,Lehman Brothers Singapore PTE Ltd.,Singapore,Lehman Brothers Pacific Holdings Pte. Ltd.
+3,SAIL Investor Pte Ltd.,Singapore,Lehman Brothers Pacific Holdings Pte. Ltd.
+1,Lehman Brothers Australia Holdings PTY Limited.,Australia,Lehman Brothers Holdings Inc.
+2,Lehman Brothers Australia Granica PTY Limited,Australia,Lehman Brothers Australia Holdings PTY Limited.
+3,Lehman Brothers Australia Limited,Australia,Lehman Brothers Australia Granica PTY Limited
+4,LB Asset Management Ltd.,Australia,Lehman Brothers Australia Limited
+1,Lehman Brothers Bancorp Inc.,Delaware,Lehman Brothers Holdings Inc.
+2,Lehman Brothers Commercial Bank,Utah,Lehman Brothers Bancorp Inc.
+2,Lehman Brothers Bank, FSB,United States of America,Lehman Brothers Bancorp Inc.
+3,Aurora Loan Services LLC,Delaware,Lehman Brothers Bank, FSB
+2,Lehman Brothers Trust Company, National Association,United States of America,Lehman Brothers Bancorp Inc.
+2,Lehman Brothers Trust Company of Delaware,Delaware,Lehman Brothers Bancorp Inc.
+2,Lehman Brothers Bancorp UK Holdings Limited,United Kingdom,Lehman Brothers Bancorp Inc.
+3,MABLE Commercial Funding Limited,United Kingdom,Lehman Brothers Bancorp UK Holdings Limited
+4,ELQ Holdings B.V.,The Netherlands,MABLE Commercial Funding Limited
+5,ELQ Hypothekan N.V.,The Netherlands,ELQ Holdings B.V.
+4,Resetfan Limited,United Kingdom,MABLE Commercial Funding Limited
+5,Capstone Mortgage Services Ltd.,United Kingdom,Resetfan Limited
+5,Southern Pacific Mortgage Limited,United Kingdom,Resetfan Limited
+5,Preferred Holdings Limited,United Kingdom,Resetfan Limited
+6,Preferred Group Limited,United Kingdom,Preferred Holdings Limited
+7,Preferred Mortgages Limited,United Kingdom,Preferred Group Limited
+4,Storm Funding Ltd.,United Kingdom,MABLE Commercial Funding Limited
+1,Lehman (Cayman Islands) Ltd.,Cayman Islands,Lehman Brothers Holdings Inc.
+1,Lehman Brothers Co-Investment Associates LLC,Delaware,Lehman Brothers Holdings Inc.
+1,Lehman Brothers Inc.,Delaware,Lehman Brothers Holdings Inc.
+2,Lehman Brothers Derivative Products Inc.,Delaware,Lehman Brothers Inc.
+2,Lehman Brothers Financial Products Inc.,Delaware,Lehman Brothers Inc.
+2,Lehman Brothers Investment Holding Company Inc.,Delaware,Lehman Brothers Inc.
+3,LB India Holdings Mauritius I Limited,Mauritius,Lehman Brothers Investment Holding Company Inc.
+3,LB India Holdings Mauritius II Limited,Mauritius,Lehman Brothers Investment Holding Company Inc.
+2,Lehman Brothers Securities Taiwan Limited,Taiwan,Lehman Brothers Inc.
+2,Lehman Brothers Special Financing Inc.,Delaware,Lehman Brothers Inc.
+3,LB3 GmbH,Germany,Lehman Brothers Special Financing Inc.
+3,Lehman Brothers Commodity Services Inc.,Delaware,Lehman Brothers Special Financing Inc.
+4,Eagle Energy Management, LLC,Delaware,Lehman Brothers Commodity Services Inc.
+5,Eagle Energy Partners I, L.P.,Texas,Eagle Energy Management, LLC
+2,Lehman Commercial Paper Inc.,New York,Lehman Brothers Inc.
+3,Bromley LLC,Delaware,Lehman Commercial Paper Inc.
+3,East Dover Limited.,Ireland,Lehman Commercial Paper Inc.
+3,Ivanhoe Lane Pty Limited,Australia,Lehman Commercial Paper Inc.
+4,Serafino Investments Pty Limited,Australia,Ivanhoe Lane Pty Limited
+3,LCPI Properties Inc.,New Jersey,Lehman Commercial Paper Inc.
+4,LW LP Inc.,Delaware,LCPI Properties Inc.
+3,M&L Debt Investments Holdings Pty Limited,Australia,Lehman Commercial Paper Inc.
+4,M&L Debt Investments Pty Limited,Australia,M&L Debt Investments Holdings Pty Limited
+3,Merit, LLC,Delaware,Lehman Commercial Paper Inc.
+3,Pindar Pty Ltd.,Australia,Lehman Commercial Paper Inc.
+4,Long Point Funding Pty Ltd.,Australia,Pindar Pty Ltd.
+2,LB I Group Inc.,Delaware,Lehman Brothers Inc.
+3,GRA Finance Corporation Ltd.,Mauritius,LB I Group Inc.
+3,LB-NL Holdings I Inc.,Delaware,LB I Group Inc.
+4,LB-NL Holdings L.P.,Delaware,LB-NL Holdings I Inc.
+5,LB-NL U.S. Investor Inc.,Delaware,LB-NL Holdings L.P.
+6,NL Funding, L.P,Delaware,LB-NL U.S. Investor Inc.
+1,Lehman Brothers (Luxembourg) S.A.,Luxembourg,Lehman Brothers Holdings Inc.
+1,Lehman Brothers OTC Derivatives Inc.,Delaware,Lehman Brothers Holdings Inc.
+1,Lehman Brothers Private Equity Advisers L.L.C.,Delaware,Lehman Brothers Holdings Inc.
+1,Lehman Brothers Private Funds Investment Company GP, LLC,Delaware,Lehman Brothers Holdings Inc.
+2,Lehman Brothers Private Fund Advisers LP,Delaware,Lehman Brothers Private Funds Investment Company GP, LLC
+2,Lehman Brothers Private Fund Management LP,Delaware,Lehman Brothers Private Funds Investment Company GP, LLC
+1,Lehman Brothers U.K. Holdings (Delaware) Inc.,Delaware,Lehman Brothers Holdings Inc.
+2,Ballybunion Investments No. 2 Ltd.,Cayman Islands,Lehman Brothers U.K. Holdings (Delaware) Inc.
+3,Ballybunion Investments No. 3 Ltd.,Cayman Islands,Ballybunion Investments No. 2 Ltd.
+4,Dynamo Investments Ltd.,Cayman Islands,Ballybunion Investments No. 3 Ltd.
+5,Ballybunion Partnership,Hong Kong,Dynamo Investments Ltd.
+2,LB India Holdings Cayman I Limited,Cayman Islands,Lehman Brothers U.K. Holdings (Delaware) Inc.
+3,Lehman Brothers Services India Private Limited,India,LB India Holdings Cayman I Limited
+4,Lehman Brothers Fixed Income Securities Private Limited,India,Lehman Brothers Services India Private Limited
+2,LB India Holdings Cayman II Limited,Cayman Islands,Lehman Brothers U.K. Holdings (Delaware) Inc.
+2,LB Lease & Finance No 1. Ltd.,United Kingdom,Lehman Brothers U.K. Holdings (Delaware) Inc.
+2,Lehman Brothers Capital GmbH, Co.,Germany,Lehman Brothers U.K. Holdings (Delaware) Inc.
+2,LB UK RE Holdings Ltd.,United Kingdom,Lehman Brothers U.K. Holdings (Delaware) Inc.
+3,Falcon LB Sarl,Luxembourg,LB UK RE Holdings Ltd.
+4,LB SPV SCA,Luxembourg,Falcon LB Sarl
+3,LB UK Financing Limited,United Kingdom,LB UK RE Holdings Ltd.
+4,LB SF No. 1 Ltd.,United Kingdom,LB UK Financing Limited
+5,Lehman Commercial Mortgage Conduit Ltd.,United Kingdom,LB SF No. 1 Ltd.
+2,Lehman Brothers Holdings Scottish LP,United Kingdom,Lehman Brothers U.K. Holdings (Delaware) Inc.
+3,Lehman Brothers Spain Holdings Limited,United Kingdom,Lehman Brothers Holdings Scottish LP
+3,Lehman Brothers Luxembourg Investments Sarl,Luxembourg,Lehman Brothers Holdings Scottish LP
+4,Woori-LB Fifth Asset Securitization Specialty Co., Ltd.,Republic of Korea,Lehman Brothers Luxembourg Investments Sarl
+4,Woori-LB Fourth Asset Securitization Specialty Co., Ltd.,Republic of Korea,Lehman Brothers Luxembourg Investments Sarl
+4,Lehman Brothers Asset Management France,France,Lehman Brothers Luxembourg Investments Sarl
+4,Lehman Brothers UK Investments Limited,United Kingdom,Lehman Brothers Luxembourg Investments Sarl
+5,LB Investments (UK) Limited,United Kingdom,Lehman Brothers UK Investments Limited
+6,LB Alpha Finance Cayman Limited,Cayman Islands,LB Investments (UK) Limited
+6,LB Beta Finance Cayman Limited,Cayman Islands,LB Investments (UK) Limited
+4,Lehman Brothers U.K. Holdings Ltd.,United Kingdom,Lehman Brothers Luxembourg Investments Sarl
+5,Lehman Brothers Holdings Plc,United Kingdom,Lehman Brothers U.K. Holdings Ltd.
+6,Furno & Del Castano Capital Partners LLP,United Kingdom,Lehman Brothers Holdings Plc
+6,LB Holdings Intermediate 1 Ltd.,United Kingdom,Lehman Brothers Holdings Plc
+7,LB Holdings Intermediate 2 Ltd.,United Kingdom,LB Holdings Intermediate 1 Ltd.
+8,Lehman Brothers International (Europe),United Kingdom,LB Holdings Intermediate 2 Ltd.
+6,Lehman Brothers Asset Management (Europe) Ltd.,United Kingdom,Lehman Brothers Holdings Plc
+6,MBAM Investor Limited,United Kingdom,Lehman Brothers Holdings Plc
+6,Lehman Brothers Europe Limited,United Kingdom,Lehman Brothers Holdings Plc
+6,Lehman Brothers Limited,United Kingdom,Lehman Brothers Holdings Plc
+5,Lehman Brothers (PTG) Limited,United Kingdom,Lehman Brothers U.K. Holdings Ltd.
+6,Eldon Street Holdings Limited,United Kingdom,Lehman Brothers (PTG) Limited
+7,Thayer Properties Limited,United Kingdom,Eldon Street Holdings Limited
+8,Thayer Group Limited,United Kingdom,Thayer Properties Limited
+9,Thayer Properties (Jersey) Ltd.,United Kingdom,Thayer Group Limited
+2,Lehman Brothers Holdings Scottish LP 2,United Kingdom,Lehman Brothers U.K. Holdings (Delaware) Inc.
+3,Lehman Brothers Holdings Scottish LP 3,United Kingdom,Lehman Brothers Holdings Scottish LP 2
+2,Lehman Brothers Treasury Co. B.V.,The Netherlands,Lehman Brothers U.K. Holdings (Delaware) Inc.
+1,Lehman Brothers Bankhaus Aktiengesellschaft,Germany,Lehman Brothers Holdings Inc.
+1,Lehman Re Ltd.,Bermuda,Lehman Brothers Holdings Inc.
+1,Lehman Risk Advisors Inc.,Delaware,Lehman Brothers Holdings Inc.
+1,LIBRO Holdings I Inc.,Delaware,Lehman Brothers Holdings Inc.
+2,Lehman Brothers do Brasil Ltda,Brazil,LIBRO Holdings I Inc.
+1,Neuberger Berman Inc.,Delaware,Lehman Brothers Holdings Inc.
+2,Neuberger Berman Asset Management, LLC,Delaware,Neuberger Berman Inc.
+2,Neuberger Berman Investment Services, LLC,Delaware,Neuberger Berman Inc.
+2,Neuberger Berman Management Inc.,New York,Neuberger Berman Inc.
+2,Sage Partners, LLC,New York,Neuberger Berman Inc.
+2,Executive Monetary Management, Inc.,New York,Neuberger Berman Inc.
+2,Neuberger Berman, LLC,Delaware,Neuberger Berman Inc.
+3,Neuberger Berman Pty Ltd.,Australia,Neuberger Berman, LLC
+3,Neuberger & Berman Agency, Inc.,New York,Neuberger Berman, LLC
+1,Principal Transactions Inc.,Delaware,Lehman Brothers Holdings Inc.
+2,Louise Y.K.,Japan,Principal Transactions Inc.
+2,Y.K. Tower Funding,Japan,Principal Transactions Inc.
+1,Real Estate Private Equity Inc.,Delaware,Lehman Brothers Holdings Inc.
+2,REPE LBREP III LLC,Delaware,Real Estate Private Equity Inc.
+1,Southern Pacific Funding 5,United Kingdom,Lehman Brothers Holdings Inc.
+1,Wharf Reinsurance Inc.,New York,Lehman Brothers Holdings Inc.
