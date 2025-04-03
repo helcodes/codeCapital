@@ -1,0 +1,125 @@
+{
+  "current_score_zeit": 3,
+  "scores": [
+    {
+      "eigenkapital": 1000000,
+      "prestige": 50,
+      "zeit": 0,
+      "fremdkapital": 500000
+    },
+    {
+      "eigenkapital": 2000000,
+      "prestige": 51,
+      "zeit": 1,
+      "fremdkapital": 600000
+    },
+    {
+      "eigenkapital": 1000000,
+      "prestige": 50,
+      "zeit": 2,
+      "fremdkapital": 500000
+    },
+    {
+      "eigenkapital": 1000000,
+      "prestige": 0,
+      "zeit": 3,
+      "fremdkapital": 500000
+    }
+  ],
+  "schulden": [
+  {
+	  "schuldner": "blabla1",
+	  "betrag": 100000
+  },
+  {
+	  "schuldner": "blabla2",
+	  "betrag": 100000
+  },
+  {
+	  "schuldner": "blabla3",
+	  "betrag": 100000
+  },
+  {
+	  "schuldner": "blabla4",
+	  "betrag": 100000
+  }
+  ],
+  "schulden_verbrieft":  [
+  {
+	  "schuldner": "blabla",
+	  "betrag": 100000,
+	  "sicherheit": "hoch"
+  },
+  {
+	  "schuldner": "xaxaxa",
+	  "betrag": 1000000
+	  "sicherheit": "hoch"
+  }
+  ],
+  "current_score_eigenkapital": 1000000,
+  "possible_moves_structure": [
+    "immobilie kaufen",
+    "immobilie verkaufen",
+    "konzern kaufen",
+    "konzern verkaufen",
+    "ehk kaufen",
+    "ehk verkaufen",
+    "tochter gruenden",
+    "spv gruenden",
+    "trust gruenden",
+    "stiftung gruenden",
+    "verbriefen"
+  ],
+  "possible_moves_prestige_netzwerk": [
+    "Vertrauen erzeugen"
+  ],
+  "possible_moves_wertsteigerung": [
+    "immobilie neu bewerten lassen"
+  ],
+  "possible_moves_aquire_capital": [
+    "teuren Kredit aufnehmen",
+    "asset-backet-security",
+    "collateralized debt obligation",
+    "minderwertige Hypothekenkredite in collateralized debt obligation bündeln (eigene?)",
+    "Schulden verbriefen (eigene)?",
+	"Anteile verkaufen"
+  ],
+  "asset": [
+    {"immobilien": [
+      {
+        "risiko": 0.1,
+        "wert": 100000,
+        "name": "villa1",
+        "sitz": "Italien",
+        "type": "luxusvilla",
+        "bewertung": 150000
+      },
+      {
+        "risiko": 0.1,
+        "wert": 100000,
+        "name": "villa2",
+        "sitz": "Italien",
+        "type": "luxusvilla",
+        "bewertung": 150000
+      }
+    ]},
+    {"konzerne": [{
+      "risiko": 0.6,
+      "wert": 200000,
+      "name": "konzern1",
+      "sitz": "Italien",
+      "type": "Technologiekonzern",
+      "bewertung": 160000
+    }]},
+    {"einzelhandelsketten": [{
+      "risiko": 0.8,
+      "wert": 300000,
+      "name": "kette1",
+      "sitz": "Italien",
+      "type": "Lebensmittelkette",
+      "bewertung": 170000
+    }]}
+  ],
+  "current_score_fremdkapital": 500000,
+  "current_score_prestige": 0
+}

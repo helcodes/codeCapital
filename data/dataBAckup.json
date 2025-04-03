@@ -1,0 +1,142 @@
+{
+  "glaeubiger": [
+    {
+      "land_sitz": "Deutschland",
+      "name": "glaube1"
+    },
+    {
+      "land_sitz": "Deutschland",
+      "name": "glaube2"
+    }
+  ],
+  "current_score_zeit": 1,
+  "scores": [
+    {
+      "eigenkapital": 1000000,
+      "prestige": 50,
+      "zeit": 0,
+      "fremdkapital": 500000
+    },
+    {
+      "eigenkapital": 2000000,
+      "prestige": 51,
+      "zeit": 1,
+      "fremdkapital": 600000
+    }
+  ],
+  "unternehmen": [
+    {
+      "mutter": "Alpha",
+      "land_sitz": "Deutschland",
+      "schulden": 7000,
+      "unternehmenswert": 10000,
+      "liquide_mittel": 1000,
+      "name": "Alpha",
+      "land_gruendung": "Cayman Island",
+      "marktkapitalisierung": 10000,
+      "id": 1,
+      "kreditrating": "AAA"
+    },
+    {
+      "mutter": "Alpha",
+      "land_sitz": "Deutschland",
+      "schulden": 500,
+      "unternehmenswert": 1000,
+      "liquide_mittel": 800,
+      "name": "Beta",
+      "land_gruendung": "Cayman Island",
+      "marktkapitalisierung": 1000,
+      "id": 2,
+      "kreditrating": "AAA"
+    },
+    {
+      "mutter": "Alpha",
+      "land_sitz": "Deutschland",
+      "schulden": 40000,
+      "unternehmenswert": 20000,
+      "liquide_mittel": 200,
+      "name": "Gamma",
+      "land_gruendung": "Delaware",
+      "marktkapitalisierung": 20000,
+      "id": 3,
+      "kreditrating": "A"
+    }
+  ],
+  "schulden": [
+    {
+      "glaeubiger": "glaube1",
+      "unternehmen": "Alpha",
+      "betrag": 10000,
+      "rate_pro_zeit": 10,
+      "verbleibend": 9990,
+      "id": 1
+    },
+    {
+      "glaeubiger": "glaube2",
+      "unternehmen": "Alpha",
+      "betrag": 10000,
+      "rate_pro_zeit": 10,
+      "verbleibend": 9990,
+      "id": 2
+    },
+    {
+      "glaeubiger": "glaube2",
+      "unternehmen": "Gamma",
+      "betrag": 10000,
+      "rate_pro_zeit": 10,
+      "verbleibend": 9990,
+      "id": 3
+    }
+  ],
+  "schulden_verbrieft": [{
+    "originalbetrag": 100000,
+    "rating": "AAA",
+    "schuldenid": [
+      1,
+      2
+    ],
+    "verkaufsbetrag": 10000
+  }],
+  "possible_moves_structure": [
+    "immobilie kaufen",
+    "immobilie verkaufen",
+    "unternehmen kaufen",
+    "unternehmen verkaufen",
+    "tochter gruenden",
+    "spv gruenden",
+    "trust gruenden",
+    "stiftung gruenden",
+    "verbriefung erstellen",
+    "verbriefung verkaufen"
+  ],
+  "asset": [
+    {
+      "risiko": 0.1,
+      "subtype": "luxusvilla",
+      "standort": "Italien",
+      "wert": 100000,
+      "name": "villa1",
+      "besitzer": "Alpha",
+      "type": "immobilie",
+      "bewertung": 150000
+    },
+    {
+      "risiko": 0.1,
+      "subtype": "Wohngebaeude",
+      "standort": "Italien",
+      "wert": 100000,
+      "name": "Wohnungen2",
+      "besitzer": "Alpha",
+      "type": "immobilie",
+      "bewertung": 150000
+    }
+  ],
+  "possible_moves_aquire_capital": [
+    "teuren Kredit aufnehmen",
+    "asset-backet-security",
+    "collateralized debt obligation",
+    "minderwertige Hypothekenkredite in collateralized debt obligation bündeln (eigene?)",
+    "Schulden verbriefen (eigene)?",
+    "Anteile verkaufen"
+  ]
+}
