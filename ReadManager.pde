@@ -34,21 +34,17 @@ public Unternehmen [] readUnternehmen() {
   JSONArray unternehmenj = data.getJSONArray("unternehmen");
   unternehmen = new Unternehmen[unternehmenj.size()];
   for (int i = 0; i < unternehmenj.size(); i++) {
-    Unternehmen unternehmen1 = new Unternehmen();
     JSONObject unternehmen1j = unternehmenj.getJSONObject(i);
     //println(unternehmen1j);
-    unternehmen1.id = unternehmen1j.getInt("id");
-    unternehmen1.name = unternehmen1j.getString("name");
-    unternehmen1.mutter = unternehmen1j.getString("mutter");
-    unternehmen1.landSitz = unternehmen1j.getString("land_sitz");
-    unternehmen1.landGruendung = unternehmen1j.getString("land_gruendung");
-    unternehmen1.schulden = unternehmen1j.getInt("schulden");
-    unternehmen1.unternehmenswert = unternehmen1j.getInt("unternehmenswert");
-    unternehmen1.liquideMittel = unternehmen1j.getInt("liquide_mittel");
-    unternehmen1.marktkapitalisierung = unternehmen1j.getInt("marktkapitalisierung");
-    unternehmen1.kreditrating = unternehmen1j.getString("kreditrating");
+    
+    Unternehmen unternehmen1 = new Unternehmen(unternehmen1j);
+    
+    //set Parent:
+    
+    
+    
     unternehmen[i]=unternehmen1;
-    //println("ASSETS: ",asset.type," ",asset.subtype," ",asset.risiko," ",asset.wert," ",asset.name," ",asset.sitz," ",asset.bewertung);
+    println(unternehmen1.toString());
   }
   return unternehmen;
 }
@@ -101,8 +97,10 @@ public Asset [] readAssets() {
     asset.risiko = assetj.getFloat("risiko");
     asset.wert = assetj.getInt("wert");
     asset.name = assetj.getString("name");
-    asset.sitz = assetj.getString("sitz");
+    asset.standort = assetj.getString("standort");
     asset.bewertung = assetj.getInt("bewertung");
+    asset.besitzer = assetj.getString("besitzer");
+    asset.id = assetj.getInt("id");
     assets[i]=asset;
     //println("ASSETS: ",asset.type," ",asset.subtype," ",asset.risiko," ",asset.wert," ",asset.name," ",asset.sitz," ",asset.bewertung);
   }

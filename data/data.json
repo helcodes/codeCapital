@@ -9,7 +9,7 @@
       "name": "glaube2"
     }
   ],
-  "current_score_zeit": 3,
+  "current_score_zeit": 14,
   "scores": [
     {
       "eigenkapital": 1000000,
@@ -24,83 +24,147 @@
       "fremdkapital": 600000
     },
     {
-      "eigenkapital": 2000000,
-      "prestige": 51,
-      "zeit": 2,
+      "eigenkapital": 0,
+      "prestige": 0,
+      "zeit": 4,
+      "fremdkapital": 0
+    },
+    {
+      "eigenkapital": 0,
+      "prestige": 0,
+      "zeit": 8,
+      "fremdkapital": 0
+    },
+    {
+      "eigenkapital": 0,
+      "prestige": 0,
+      "zeit": 10,
+      "fremdkapital": 0
+    },
+    {
+      "eigenkapital": 0,
+      "prestige": 0,
+      "zeit": 12,
+      "fremdkapital": 0
+    },
+    {
+      "eigenkapital": 0,
+      "prestige": 0,
+      "zeit": 14,
       "fremdkapital": 0
     }
   ],
   "unternehmen": [
     {
-      "mutter": "Alpha",
+      "mutter": 1,
       "land_sitz": "Deutschland",
       "schulden": 7000,
       "unternehmenswert": 10000,
       "liquide_mittel": 1000,
       "name": "Alpha",
+      "x": 100,
       "land_gruendung": "Cayman Island",
       "marktkapitalisierung": 10000,
+      "y": 100,
       "id": 1,
       "kreditrating": "AAA"
     },
     {
-      "mutter": "Alpha",
+      "mutter": 1,
       "land_sitz": "Deutschland",
       "schulden": 500,
       "unternehmenswert": 1000,
       "liquide_mittel": 800,
       "name": "Beta",
+      "x": 140,
       "land_gruendung": "Cayman Island",
       "marktkapitalisierung": 1000,
+      "y": 300,
       "id": 2,
       "kreditrating": "AAA"
     },
     {
-      "mutter": "Alpha",
+      "mutter": 2,
       "land_sitz": "Deutschland",
       "schulden": 40000,
       "unternehmenswert": 20000,
       "liquide_mittel": 200,
       "name": "Gamma",
+      "x": 100,
       "land_gruendung": "Delaware",
       "marktkapitalisierung": 20000,
+      "y": 500,
       "id": 3,
       "kreditrating": "A"
     },
     {
-      "mutter": "Alpha",
+      "mutter": 1,
       "land_sitz": "Österreich",
       "schulden": 2000,
       "unternehmenswert": 21800,
       "liquide_mittel": 200,
-      "name": "Gamma",
+      "name": "Delta",
+      "x": 300,
       "land_gruendung": "Österreich",
       "marktkapitalisierung": 20000,
-      "id": 3,
+      "y": 300,
+      "id": 4,
       "kreditrating": "BB"
     },
     {
-      "mutter": "Alpha",
-      "land_sitz": "Österreich",
-      "schulden": 2000,
-      "unternehmenswert": 41800,
-      "liquide_mittel": 200,
-      "name": "Gamma",
-      "land_gruendung": "Österreich",
-      "marktkapitalisierung": 30000,
-      "id": 3,
-      "kreditrating": "BB"
-    },
-    {
-      "mutter": "Alpha",
+      "mutter": 3,
       "land_sitz": "Österreich",
       "schulden": 2000,
       "unternehmenswert": 21800,
       "liquide_mittel": 200,
-      "name": "Gamma",
+      "name": "Epsilon",
+      "x": 400,
       "land_gruendung": "Österreich",
       "marktkapitalisierung": 20000,
-      "id": 3,
+      "y": 500,
+      "id": 4,
+      "kreditrating": "BB"
+    },
+    {
+      "mutter": 2,
+      "land_sitz": "Österreich",
+      "schulden": 2000,
+      "unternehmenswert": 21800,
+      "liquide_mittel": 200,
+      "name": "Zeta",
+      "x": 400,
+      "land_gruendung": "Österreich",
+      "marktkapitalisierung": 20000,
+      "y": 100,
+      "id": 5,
+      "kreditrating": "BB"
+    },
+    {
+      "mutter": 3,
+      "land_sitz": "Österreich",
+      "schulden": 2000,
+      "unternehmenswert": 21800,
+      "liquide_mittel": 200,
+      "name": "Eta",
+      "x": 500,
+      "land_gruendung": "Österreich",
+      "marktkapitalisierung": 20000,
+      "y": 300,
+      "id": 6,
+      "kreditrating": "BB"
+    },
+    {
+      "mutter": 1,
+      "land_sitz": "Österreich",
+      "schulden": 2000,
+      "unternehmenswert": 21800,
+      "liquide_mittel": 200,
+      "name": "Eps",
+      "x": 700,
+      "land_gruendung": "Österreich",
+      "marktkapitalisierung": 20000,
+      "y": 300,
+      "id": 8,
       "kreditrating": "BB"
     }
   ],
@@ -159,6 +223,8 @@
       "wert": 100000,
       "name": "villa1",
       "besitzer": "Alpha",
+      "miete": 1000,
+      "id": 1,
       "type": "immobilie",
       "bewertung": 150000
     },
@@ -169,6 +235,20 @@
       "wert": 100000,
       "name": "Wohnungen2",
       "besitzer": "Alpha",
+      "miete": 1000,
+      "id": 2,
+      "type": "immobilie",
+      "bewertung": 150000
+    },
+    {
+      "risiko": 0.1,
+      "subtype": "Geschaeftsgebaeude",
+      "standort": "Italien",
+      "wert": 100000,
+      "name": "Geschaeftsgebaeude1",
+      "besitzer": "Alpha",
+      "miete": 1000,
+      "id": 3,
       "type": "immobilie",
       "bewertung": 150000
     }
@@ -180,5 +260,6 @@
     "minderwertige Hypothekenkredite in collateralized debt obligation bündeln (eigene?)",
     "Schulden verbriefen (eigene)?",
     "Anteile verkaufen"
-  ]
+  ],
+  "working_money": 100000
 }
