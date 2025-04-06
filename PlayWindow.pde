@@ -1,3 +1,4 @@
+
 class PlayWindow extends PApplet {//3. Fenster
   Unternehmen selectedU = null;
   color background = color(193, 216, 230);//hellblau
@@ -17,10 +18,8 @@ class PlayWindow extends PApplet {//3. Fenster
     //text("Zweites Fenster", 80, 150);
     stroke(0);
     //background(240);
-    
     noLoop();
     
-  //testen: grafische elemente
     for (Unternehmen u : unternehmen) {
       display(u);//u.display();
     }
@@ -30,6 +29,7 @@ class PlayWindow extends PApplet {//3. Fenster
       text("Bearbeite: " + selectedU.name, 20, height - 20);
     }
   }
+  
 
   void draw() {
     //rect(100, 100, 100, 100);

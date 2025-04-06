@@ -162,11 +162,11 @@ PFont font;
       
       companyInputField = cp5.addTextfield("input")
          .setPosition(380, 120)
-         .setSize(400, 30)
+         .setSize(600, 30)
          .setFont(font)
          .setFocus(true)
          .setColor(color(200, 200, 200))
-         .setText("4 Gamma2 3 Österreich Österreich 21800 200 20000 2000 BB 400 100")
+         .setText("Gamma2 3 Österreich Österreich 21800 200 20000 2000 BB")
          .hide();
          
       //cp5.getController("input").getCaptionLabel().setText("Bitte Unternehmensdaten eingeben \n(name mutter land-Gruendung land-Sitz unternehmenswert \nliquide-Mittel marktkapitalisierung schulden kreditrating");
@@ -269,7 +269,12 @@ PFont font;
   void gruendeUnternehmen() {
     if (companyInputField.getText().equals("")) return;//kein spielzug selektiert //<>//
     println("inputfield="+companyInputField.getText() + " " + str(getMaxUid()));
-    String[] companyFields = split(companyInputField.getText() + " " + str(getMaxUid()), " ");
+    int mutterId=int(split(companyInputField.getText()," ")[1]);
+    //String[] newCoordsU = split(getCoordsNewCompany(mutterId)," ");
+    int newUid=getMaxUid()+1;
+    String uString = newUid + " " + companyInputField.getText() + " " + getCoordsNewCompany(mutterId);
+    println("uNeuString="+uString);
+    String[] companyFields = split(uString, " ");
     
     Unternehmen u = new Unternehmen(companyFields);
     println("Unternehmen neu="+u.toString());
@@ -285,5 +290,23 @@ PFont font;
   
     saveScores();//bei einem zug
     valsChanged=true;
+  }
+  
+  //iterate unternehmen mit gleicher mutter und merke dir max x+y
+  String getCoordsNewCompany(int mutterId) {
+    int maxx=0; int maxy=0;
+    int maxAllx=0; int maxAlly=0;
+    for (Unternehmen u : unternehmen) {
+      if (u.mutter==mutterId) {
+        maxx=max(maxx,u.x);
+        maxy=max(maxy,u.y);
+      }
+        maxAllx=max(maxAllx,u.x);
+        maxAlly=max(maxAlly,u.y);
+    }
+    
+    if (maxy==0) {maxy=maxAlly+150; maxx=0;}//keine kinder fuer gleiche mutter
+    if (maxy>0) {maxx=maxx+150;}
+    return maxx+" "+maxy;
   }
 }
